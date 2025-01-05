@@ -5,11 +5,11 @@ public class Symbol {
     private char asymbol;
 
 
-    public char getAsymnbol() {
+    public char getAsymbol() {
         return asymbol;
     }
 
-    public void setAsymnbol(char asymnbol) {
+    public void setAsymbol(char asymnbol) {
         this.asymbol = asymnbol;
     }
 }

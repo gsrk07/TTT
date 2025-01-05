@@ -1,6 +1,13 @@
 package TicTacToe.models;
 
 public class Player {
+
+    public Player(Symbol symbol, String playername, PlayerType playerType) {
+        this.symbol = symbol;
+        this.playername = playername;
+        this.playerType = playerType;
+    }
+
     private Symbol symbol;
     private String playername;
 
